@@ -2,6 +2,7 @@
 #include "mbed.h"
 
 PwmOut ledPWM(A7);
+
 int main() {
 
     ledPWM.period(0.01f);
